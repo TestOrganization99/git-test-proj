@@ -6,3 +6,9 @@ TestOrganization99
 test@test.com
 
 git-test-proj
+--------------------------
+
+git status
+git commit -m "comment here"
+git push origin master
+git pull origin master
