@@ -7,8 +7,15 @@ test@test.com
 
 git-test-proj
 --------------------------
+for own edits :
+	git status
+	git commit -m "comment here"
+	git push origin master
+	git pull origin master
 
-git status
-git commit -m "comment here"
-git push origin master
-git pull origin master
+-----------------------------
+for pulling other's edit : 
+	git pull origin master
+	 if fast forward & 
+	    Your branch is ahead of 'origin/master'
+	 git push master
